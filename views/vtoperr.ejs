@@ -1,0 +1,54 @@
+<html><head>
+	<base href="https://vtop.vit.ac.in/vtop/">
+	<link rel="stylesheet" href="assets/plugins/css/AdminLteCompatibility.css">
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+	
+</head>
+
+<body>
+
+	
+		
+		<div id="closedHTML">
+		
+		<div class="row">
+			<div class="col-md-9" style="float: none; margin: 0 auto; margin-top: 30px;">			
+		
+			<div class="box box-info">
+							
+				<div class="box-header with-border">
+					<h4><b>Session Timed out</b></h4>
+				</div>
+	
+				<div class="box box-warning">
+					<div class="box-body text-center small">
+
+						<div>
+							<h3><code>You are logged out due to inactivity for more than 15 minutes</code></h3>
+							<br>
+							
+								<a href="/vtop/" class="btn btn-success pull-right">Login to VTOP</a> 								
+							
+						</div>
+
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+
+		<script>
+		
+			$(function() {
+			    var content = $("#closedHTML").html();
+			    $('#page_outline').replaceWith('<div  id="page-closed" class="col-md-12 content-center">' + content + '</div>');
+			});
+		
+		</script>
+		
+	
+
+
+
+</body></html>
